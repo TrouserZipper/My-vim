@@ -8,8 +8,7 @@ set ignorecase smartcase
 let g:vimtex_view_method = 'zathura'
 let g:tex_flavor = 'latex'
 let g:UltiSnipsExpandTrigger="<tab>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
-let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+let g:UltiSnipsJumpBackwardTrigger="<s-tab>"
 filetype plugin indent on
 
 call plug#begin()
