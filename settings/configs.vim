@@ -6,7 +6,7 @@ set grepprg=rg\ --vimgrep\ --smart-case\ --follow
 set encoding=utf8
 set ignorecase smartcase
 
-let g:vimtex_view_method = 'zathura'
+let g:vimtex_view_method = 'skim'
 let g:tex_flavor = 'latex'
 let g:vimtex_compiler_method = 'latexmk'
 
